@@ -71,7 +71,19 @@ footer p{
     text-align: center;
     font-weight: 700;
 }
-@media only screen and (max-width: 600px) {
+
+.broder1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 1;
+
+}
+.broder2{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, cyan) 1;
+}
+
+
+@media only screen and (max-width: 500px) {
     .flex-display{
         display: block;
         margin-bottom: 150px;
