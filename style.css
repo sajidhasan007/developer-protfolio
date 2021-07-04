@@ -2,8 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.top-banner{
+section{
     display: flex;
+    margin-bottom: 150px;
+}
+.top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;  
 }
@@ -14,7 +17,6 @@ body{
     width: 50%;
     padding-left: 50px;
     text-align: justify;
-    margin-bottom: 50px;
     
 }
 .top-banner img{
@@ -37,6 +39,7 @@ body{
     display: flex;
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
     
     
 }
