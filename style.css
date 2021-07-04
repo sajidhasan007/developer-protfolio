@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flex-display{
     display: flex;
     margin-bottom: 150px;
 }
@@ -22,6 +22,14 @@ section{
 .top-banner img{
     width: 80%;
     
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
 }
 .link-btn{
     text-decoration: none;
@@ -46,3 +54,50 @@ section{
 .mid-banner img{
     width: 80%;   
 }
+.exp-itm{
+
+    width: 40%;
+    margin: 5%;
+    box-shadow: 5px 10px 30px #585252;
+    padding: 10px;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+} 
+footer p{
+    text-align: center;
+    font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+    .flex-display{
+        display: block;
+        margin-bottom: 150px;
+    }
+    .exp-itm{
+
+        width: 100%;
+        margin: 5%;
+        box-shadow: 5px 10px 30px #585252;
+        padding: 10px;
+    }
+    .half-side{
+        width: 100%;
+        margin: 10px;
+        text-align: justify;
+        
+    }
+    .link-btn{
+        display: block;
+        text-decoration: none;
+        padding:10px 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        background-image:linear-gradient(orange, tomato);
+        border-radius: 20%;
+    }
+
+  }
